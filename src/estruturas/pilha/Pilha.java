@@ -6,9 +6,9 @@ package estruturas.pilha;
 
 
 public class Pilha {
-    private int[] dados;
+    private final int[] dados;
     private int topo;
-    private int capacidade;
+    private final int capacidade;
 
 
     public Pilha(int tamanho) {
