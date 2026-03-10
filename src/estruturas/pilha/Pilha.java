@@ -6,14 +6,14 @@ package estruturas.pilha;
 
 
 public class Pilha {
-    private int[] elementos;
+    private int[] dados;
     private int topo;
     private int capacidade;
 
 
     public Pilha(int tamanho) {
         this.capacidade = tamanho;
-        this.elementos = new int[tamanho];
+        this.dados = new int[tamanho];
         this.topo = -1; // Indica que a pilha está vazia
     }
 
@@ -21,19 +21,19 @@ public class Pilha {
         if (isFull()) {
             throw new RuntimeException("Stack Overflow: A pilha está cheia!");
         }
-        elementos[++topo] = valor;
+        dados[++topo] = valor;
     }
 
     public int pop() {
         if (isEmpty()) {
             throw new RuntimeException("Stack Empty: A pilha está vazia!");
         }
-        return elementos[topo--];
+        return dados[topo--];
     }
 
     public int peek() {
         if (isEmpty()) return -1;
-        return elementos[topo];
+        return dados[topo];
     }
 
     public boolean isEmpty() {
@@ -51,7 +51,7 @@ public class Pilha {
         }
         System.out.println("\n--- Estado Atual da Pilha ---");
         for (int i = topo; i >= 0; i--) {
-            System.out.println("| " + elementos[i] + " |" + (i == topo ? " <- TOPO" : ""));
+            System.out.println("| " + dados[i] + " |" + (i == topo ? " <- TOPO" : ""));
         }
         System.out.println("-------");
     }
