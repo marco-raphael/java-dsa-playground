@@ -1,4 +1,4 @@
-package estruturas;
+package estruturas.pilha;
 
 // push - Adiciona um elemento no topo
 // pop - Remove e retorna o elemento do topo
@@ -10,25 +10,6 @@ public class Pilha {
     private int topo;
     private int capacidade;
 
-    public static void main(String[] args) {
-        Pilha minhaPilha = new Pilha(5);
-
-        minhaPilha.push(10);
-        minhaPilha.push(20);
-        minhaPilha.push(30);
-        minhaPilha.push(40);
-        minhaPilha.push(50);
-
-        System.out.println("No topo agora: " + minhaPilha.peek()); // Saída: 30
-
-        int removido = minhaPilha.pop();
-        System.out.println("Removi o: " + removido); // Saída: 30
-
-        System.out.println("Novo topo: " + minhaPilha.peek()); // Saída: 20
-
-        minhaPilha.exibirPilha();
-
-    }
 
     public Pilha(int tamanho) {
         this.capacidade = tamanho;
