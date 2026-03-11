@@ -18,7 +18,7 @@ Para facilitar a navegação, dividi o projeto em dois grandes blocos:
 ## 🛠️ Stack de Estudos
 * **Linguagem:** Java
 * **IDE:** IntelliJ IDEA
-* **Foco:** Performance ($O(n)$) e Organização de Código
+* **Foco:** Qualidade de código e Análise de Complexidade (Big O) para garantir algoritmos eficientes.
 
 ---
 **Status:** 🚧 Em constante evolução... (Novos algoritmos são adicionados semanalmente!)
