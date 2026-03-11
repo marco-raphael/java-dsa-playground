@@ -32,7 +32,9 @@ public class Pilha {
     }
 
     public int peek() {
-        if (isEmpty()) return -1;
+        if (isEmpty()){
+            throw new RuntimeException("Stack Empty: Não é possível espiar uma pilha vazia!");
+        }
         return dados[topo];
     }
 
