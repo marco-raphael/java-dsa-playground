@@ -7,7 +7,7 @@ public class Exemplo1 {
 
         for(int i = 1; i <= 5; i++){
             minhaPilha.push(i * 10);
-            minhaPilha.exibirPilha();
+            minhaPilha.printStack();
         }
 
         System.out.println("No topo agora: " + minhaPilha.peek());
@@ -17,6 +17,6 @@ public class Exemplo1 {
 
         System.out.println("Novo topo: " + minhaPilha.peek());
 
-        minhaPilha.exibirPilha();
+        minhaPilha.printStack();
     }
 }
