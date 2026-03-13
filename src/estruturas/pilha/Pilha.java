@@ -46,7 +46,7 @@ public class Pilha {
         return topo == capacidade - 1;
     }
 
-    public void exibirPilha() {
+    public void printStack() {
         if (isEmpty()) {
             System.out.println("\n[ ] Pilha vazia");
             return;
