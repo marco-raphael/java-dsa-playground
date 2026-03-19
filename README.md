@@ -1,24 +1,42 @@
-# Java DSA: Laboratory ☕🚀
+# ☕ Java DSA: Laboratory 🚀
 
-Este repositório é o meu laboratório pessoal de **Estruturas de Dados** e **Algoritmos** em Java. Aqui, documento minha evolução técnica, saindo do zero até o domínio de conceitos complexos de computação.
+> **"Do zero ao domínio de estruturas complexas com o rigor do Java."**
 
-## 🎯 Objetivo do Projeto
-O foco aqui é transformar teoria em código. Utilizo este espaço para praticar a lógica por trás de como os dados são organizados e processados de forma eficiente.
-
-## 📂 Como o código está organizado
-
-Para facilitar a navegação, dividi o projeto em dois grandes blocos:
-
-1. **`algoritmos/`**: Onde coloco toda a lógica de processamento (Ordenação, Buscas, Recursão, Matemática computacional).
-2. **`estruturas/`**: Onde implemento do zero as estruturas para armazenamento de dados (Pilhas, Filas, Listas, Árvores).
-
-> [!TIP]
-> Cada classe possui um método `main` para facilitar o teste individual das funcionalidades.
-
-## 🛠️ Stack de Estudos
-* **Linguagem:** Java
-* **IDE:** IntelliJ IDEA
-* **Foco:** Qualidade de código e Análise de Complexidade (Big O) para garantir algoritmos eficientes.
+Este repositório é o meu laboratório pessoal de **Estruturas de Dados e Algoritmos (DSA)** em Java. Aqui, documento minha evolução técnica, unindo a robustez da JVM com os fundamentos da Ciência da Computação.
 
 ---
-**Status:** 🚧 Em constante evolução... (Novos algoritmos são adicionados semanalmente!)
+
+## 🎯 Objetivo do Projeto
+O foco principal é transformar teoria em código executável. Utilizo este espaço para praticar a lógica por trás da organização e do processamento eficiente de dados, focando sempre em performance e escalabilidade.
+
+---
+
+## 📂 Organização do Laboratório
+Para facilitar a navegação e o estudo, o projeto está dividido em dois grandes blocos:
+
+* **`algoritmos/`**: Lógica de processamento e manipulação.
+    * *Ordenação, Buscas, Recursão e Matemática Computacional.*
+* **`estruturas/`**: Implementações "from scratch" (do zero).
+    * *Pilhas (Stacks), Filas (Queues), Listas Ligadas e Árvores.*
+
+> [!TIP]
+> **Testes Rápidos:** Cada classe possui um método `main` independente. Isso permite testar individualmente as funcionalidades e o comportamento de cada estrutura sem dependências externas.
+
+---
+
+## 🛠️ Stack de Estudos
+
+| Componente | Tecnologia |
+| :--- | :--- |
+| **Linguagem** | Java (JDK Moderno) ☕ |
+| **IDE** | IntelliJ IDEA 💎 |
+| **Foco** | Qualidade de Código & Análise de Complexidade (Big O) 📊 |
+| **Metodologia** | Implementação manual para reforço de conceitos 🧠 |
+
+---
+
+## 🚀 Status do Projeto
+⚠️ **Em constante evolução...**
+Novos algoritmos e estruturas são adicionados semanalmente! 🏗️
+
+---
